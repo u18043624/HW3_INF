@@ -8,7 +8,7 @@ namespace u18043624_HW03.Controllers
 {
 	public class HomeController : Controller
 	{
-		public ActionResult Index()
+		public ActionResult Home()
 		{
 			return View();
 		}
@@ -20,7 +20,19 @@ namespace u18043624_HW03.Controllers
 			return View();
 		}
 
-		public ActionResult Contact()
+		public ActionResult Files()
+		{
+			ViewBag.Message = "Your contact page.";
+
+			return View();
+		}
+		public ActionResult Images()
+		{
+			ViewBag.Message = "Your contact page.";
+
+			return View();
+		}
+		public ActionResult Videos()
 		{
 			ViewBag.Message = "Your contact page.";
 

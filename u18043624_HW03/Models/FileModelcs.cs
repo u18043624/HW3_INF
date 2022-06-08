@@ -9,6 +9,6 @@ namespace u18043624_HW03.Models
 	{
 		public string FileName { get; set; }
 
-		public HttpPostedFileBase Files { get; set; }
+		public HttpPostedFileBase File { get; set; }
 	}
 }

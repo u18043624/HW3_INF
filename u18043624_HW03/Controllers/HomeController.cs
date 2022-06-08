@@ -12,8 +12,8 @@ namespace u18043624_HW03.Controllers
 	{
 		public ActionResult Home()
 		{
-			var items = GetFiles();
-			return View(items);
+			/*var items = GetFiles();*/
+			return View(); //items
 		}
 
 		[HttpPost]
@@ -69,6 +69,7 @@ namespace u18043624_HW03.Controllers
 			return View();
 		}
 
+		
 		public ActionResult Files()
 		{
 			string[] filePaths = Directory.GetFiles(Server.MapPath("~/App_Data/Documents"));
@@ -84,6 +85,7 @@ namespace u18043624_HW03.Controllers
 
 			return View(files);
 		}
+		
 		public ActionResult Images()
 		{
 			ViewBag.Message = "";

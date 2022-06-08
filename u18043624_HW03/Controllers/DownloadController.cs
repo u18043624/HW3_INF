@@ -10,6 +10,7 @@ namespace u18043624_HW03.Controllers
 {
     public class DownloadController : Controller
     {
+        /*
         // GET: Download
         public ActionResult Download()
         {
@@ -23,5 +24,6 @@ namespace u18043624_HW03.Controllers
             }
             return View(files);
         }
+        */
     }
 }
